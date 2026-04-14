@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "hhttps://multitenant-taskmanagement-1.onrender.com/api"
+    baseURL: "https://multitenant-taskmanagement-1.onrender.com/api"
 });
 
 // Attach token automatically
